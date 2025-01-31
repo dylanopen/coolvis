@@ -1,0 +1,17 @@
+# ---------------------------------------------------- #
+# coolvis2 examples, copyright (c) Dylan Rogers (2025) #
+# ---------------------------------------------------- #
+
+width = 512 # the width of the window
+height = 512 # the height of the window
+pixelate = 1 # higher speeds mean more pixelation
+initial_x = 446 # the X coordinate of the top-left corner of the square
+initial_y = 224 # the Y coordinate of the top-left corner of the square
+color_interval = 5 # how many frames are skipped until the color changes. HIGHER = SLOWER color change
+color_magnitude = 3 # how much the color changes on each color interval. HIGHER = FASTER color change
+color_red = 191 # the red component of the starting color
+color_green = 100 # the green component of the starting color
+color_blue = 31 # the blue component of the starting color
+speed = 800 # the framerate the BUFFER updates at. window fps is constant 60.
+rect_size = 64 # the width and height of the square
+
